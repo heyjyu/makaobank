@@ -1,0 +1,22 @@
+html, body {
+    display: block;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+
+header {
+    height: 4em;
+    background: #0C5A4C;
+}
+
+main {
+    display: block;
+    position: relative;
+    min-width: 1024px;
+    width: 100vw;
+    height: calc(100vh - 4em);
+    background: url("/resources/wave.svg") no-repeat 0 50%;
+    background-color: #0F7562;
+    background-size: cover;
+}
